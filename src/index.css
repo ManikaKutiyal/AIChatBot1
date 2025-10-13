@@ -1,0 +1,41 @@
+/* --- 1. FONTS --- */
+/* You can link a Google Font for the cute/retro feel. 
+   'Varela Round' is rounded and friendly. */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* --- 2. CSS Variables (The Pastel Palette) --- */
+:root {
+  /* Pastel Colors */
+  --color-primary: #FFDDE2; /* Pale Pink (Accent) */
+  --color-secondary: #C8E6C9; /* Mint Green (Secondary/Button) */
+  --color-tertiary: #B3E0FF; /* Soft Blue (Highlight) */
+
+  /* Neutrals */
+  --color-background: #FFFBEF; /* Creamy Off-White */
+  --color-card-bg: #FFFFFF;    /* Pure White for Card surfaces */
+  --color-text: #4a4a4a;       /* Dark Gray for text (softer than black) */
+
+  /* Typography */
+  --font-main: 'Varela Round', sans-serif;
+  --radius-default: 15px; /* Heavy rounding for the retro/cute look */
+}
+
+/* --- 3. Global Reset/Base Styling --- */
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  display: flex; /* Helps center the app content */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Base text styling */
+h1, h2 {
+  color: var(--color-text);
+  text-align: center;
+}
