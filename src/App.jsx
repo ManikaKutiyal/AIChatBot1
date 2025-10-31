@@ -69,7 +69,9 @@ const App = () => {
           <h1 className="app-title">
             AI Assistant
           </h1>
-          <p className="app-subtitle">Generate content powered by Gemini (No Backend Required)</p>
+          <p className="app-subtitle">
+            Ask me anything. Try "explain react hooks" or "show sources".
+          </p>
         </header>
 
         <div className="form-group-container">
